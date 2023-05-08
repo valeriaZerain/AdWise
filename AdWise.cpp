@@ -143,7 +143,8 @@ void iniciarMenu()
             string nombre;
             int nprecio, nw;
             cout << endl << "Ingresa el nombre del nuevo medio de comunicacion: ";
-            cin >> nombre;
+            cin>>ignore;
+            getline((cin,nombre);
             cout << "Ingresa el precio del nuevo medio de comunicacion: ";
             cin >> nprecio;
             cout << "Ingresa el valor de beneficio porcentual del nuevo medio de comunicacion: ";
