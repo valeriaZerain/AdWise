@@ -96,7 +96,6 @@ void esperarAMenu()
 void iniciarMenu()
 {
     int choice;
-    int knap_counter = 0;
     do
     {
         cout << endl<< "-------------Escoge una opcion-------------" << endl;
